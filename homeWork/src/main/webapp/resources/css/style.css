@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* ==========================================================================
+   Layer Style
+   ========================================================================== */
+/* Common */
+header{min-height:60px;line-height:60px;background-color:#fff;border-bottom:1px solid #c4c4c4;box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.13);}
+header .inner{margin-right:auto;margin-left:auto;padding:0 15px;}
+header .inner h2{text-align: center;}
+
+#container{margin-bottom:43px;padding:20px 0;}
+/*#container{padding:20px 0;background-color:#f5f5f5;}*/
+#footer{position:fixed;bottom:0;width:100%;padding:15px;background-color:#fff;border-top:1px solid #c4c4c4;font-size:0.9em;text-transform:uppercase;}
+
+.table_title{padding:10px;background-color:#4c4c4c;font-size:1.1em;color:#fff;font-weight:bold;}
+
+.box_panel{background-color:#fff;padding:10px 15px;border-top:1px solid #c4c4c4;border-bottom:1px solid #c4c4c4;}
+.box_panel > .box > span {display:block;font-weight:bold;}
+.box_panel > .box > input {width:100%;padding:20px 10px;box-sizing:border-box;}
+.box_panel > .box + .coin {margin: 15px 0 15px 0;}
+.box_panel > .box + .coin > .btn_coin{overflow:hidden;}
+.box_panel > .box + .coin > .btn_coin > .btn{float:left;padding:10px 0;width:49%;box-sizing:border-box;font-size:16px;font-weight:bold;background-color:#f5f5f5 !important;}
+.box_panel > .box + .coin > .btn_coin > .btn + .btn{margin-left:2%;}
+
+.btn_action{padding:15px 0 0 0;}
+
+.slash{background:url(../images/common/back_slash.png);background-size:100% 100%;}
+.tb_basic thead tr th div{text-align:right;}
+.tb_basic tbody tr td input{width:100%;padding:15px 10px;box-sizing:border-box;}
+
+.noresize {
+  resize: none; /* 사용자 임의 변경 불가 */
+  /*resize: both;*/ /* 사용자 변경이 모두 가능 */
+  /*resize: horizontal;*/ /* 좌우만 가능 */
+  /*resize: vertical;*/ /* 상하만 가능 */
+}
+
+.btn_action > input.btn_calculation{width:100%;padding:10px 0;background-color:#196deb;color:#fff;}
